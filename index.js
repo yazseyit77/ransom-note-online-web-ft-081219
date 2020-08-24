@@ -22,4 +22,5 @@ function canBuildNote(magazine, note){
       histogram[note.charAt(i) -= 1];
     }
   }
+  return true;
 }
