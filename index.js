@@ -4,7 +4,7 @@ function buildHistogram(magazine){
 
   magazine.forEach(letter => {
     if(histogram[letter]){
-      histogram[letter] ++ ;
+      histogram[letter]++ ;
     }else{
       histogram[letter] - 1;
     }
