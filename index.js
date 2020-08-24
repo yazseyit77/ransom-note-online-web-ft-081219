@@ -6,7 +6,7 @@ function buildHistogram(magazine){
     if(histogram[letter]){
       histogram[letter] +=1 ;
     }else{
-      histogram[letter] - 1;
+      histogram[letter] = 1;
     }
   });
   return histogram;
