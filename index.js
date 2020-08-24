@@ -11,4 +11,3 @@ function buildHistogram(magazine){
   });
   return histogram;
 }
-
