@@ -19,7 +19,7 @@ function canBuildNote(magazine, note){
     if(!histogram[note.charAt(i)]){
       return false;
     } else {
-      histogram[note.charAt(i) -= 1];
+      histogram[note.charAt(i)]  -= 1;
     }
   }
   return true;
